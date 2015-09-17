@@ -1,0 +1,5 @@
+Credentials cache: API:15504
+        Principal: gakles@42.FR
+
+  Issued                Expires             Flags    Principal
+Sep  1 15:50:47 2015  Sep  2 01:50:47 2015  FPIA   krbtgt/42.FR@42.FR
