@@ -6,7 +6,7 @@
 /*   By: gakles <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/09/16 21:58:11 by gakles            #+#    #+#             */
-/*   Updated: 2015/09/17 13:37:39 by gakles           ###   ########.fr       */
+/*   Updated: 2015/09/17 22:19:37 by gakles           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int		ft_list_size(t_list *begin_list)
 {
-	t_list *elem_tmp;
-	int i;
+	int		i;
+	t_list	*elem_tmp;
 
 	i = 0;
 	elem_tmp = begin_list;

@@ -6,7 +6,7 @@
 /*   By: gakles <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/09/17 09:25:47 by gakles            #+#    #+#             */
-/*   Updated: 2015/09/17 13:52:56 by gakles           ###   ########.fr       */
+/*   Updated: 2015/09/17 22:26:40 by gakles           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 t_list		*ft_list_at(t_list *begin_list, unsigned int nbr)
 {
-	t_list *elem_tmp;
-	unsigned int i;
+	int		i;
+	t_list	*elem_tmp;
 
 	i = 0;
 	elem_tmp = begin_list;

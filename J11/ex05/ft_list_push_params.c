@@ -6,7 +6,7 @@
 /*   By: gakles <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/09/17 07:26:28 by gakles            #+#    #+#             */
-/*   Updated: 2015/09/17 13:43:59 by gakles           ###   ########.fr       */
+/*   Updated: 2015/09/17 22:25:39 by gakles           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ t_list		*ft_list_push_params(int ac, char **av)
 	{
 		while (cursor != 0)
 		{
-			*cursor = *cursor->next;
+			cursor = cursor->next;
 		}
 		ft_create_elem(av[ac]);
 		cursor->next = av;

@@ -6,7 +6,7 @@
 /*   By: gakles <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/09/16 14:36:30 by gakles            #+#    #+#             */
-/*   Updated: 2015/09/16 21:58:57 by gakles           ###   ########.fr       */
+/*   Updated: 2015/09/17 22:14:26 by gakles           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,6 @@ typedef struct	s_list
 	void			*data;
 }				t_list;
 
-t_list		*ft_create_elem(void *data);
+t_list			*ft_create_elem(void *data);
 
 #endif
