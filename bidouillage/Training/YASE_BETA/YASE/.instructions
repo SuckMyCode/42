@@ -1,0 +1,36 @@
+Y.A.S.E v0.5
+
+Bonjour !
+
+Bienvenue dans Yet Another Simple ExamShell !
+(Petite reference a YASU, pour ceux qui ont affronte SecuRom dans leur jeunesse).
+
+Le fonctionnement est tres simple.
+De nouveaux fichiers et dossiers sont apparus
+- grade_me.sh
+- clean_up.sh
+- ./rendus
+- ./sujets
+
+1) Les sujets sont dans... sujets ! Ils sont classes par niveaux (ceux de l'exam).
+2) Les rendus sont a faire dans le dossier rendus, dans le sous-dossier lvl approprie
+3) N'oublie pas de creer un dossier avec le nom du programme / de la fonction, comme a l'exam !
+4) Une fois que tu aura fait tous les exercices, ou que tu en aura marre, lance grade_me.sh (./grade_me.sh)
+	Tu obtiendra un fichier trace par exercice, dans le dossier trace a la racine de YASE
+	Si ce fichier est vide, c'est normalement que tout s'est bien passe et que tu as reussi
+	Sinon, le diff sera affiche
+5) Tout a la fin, n'oublie pas de lancer ./clean_up.sh. Ca nettoiera tous les dossiers :-)
+
+Pour infos :
+
+- Le code source des fonctions / programmes n'est pas verifie
+- Je ne sais pas ce qu'il se passera si tu lances grade_me.sh sans avoir fait tous les exercices
+- N'APPUIE SURTOUT PAS SUR LE BOUTON ROUGE !!!
+- AND DON'T PANIC ;-)
+
+P.S. si plein de lignes s'affichent a l'ecran, c'est que quelque chose deconne. Ou que tu n'as pas / as mal rendu des exercices. Encore une fois, DONT'T PANIC ! Chill, prend-toi pour un l337 H4X0R le temps que ca se calme, et envoie-moi un mail en m'expliquant ce qui s'est passe ;-)
+
+Bonnes revisions !
+
+
+ElFitz

@@ -6,16 +6,17 @@
 /*   By: gakles <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/09/05 13:03:03 by gakles            #+#    #+#             */
-/*   Updated: 2015/09/05 22:18:50 by gakles           ###   ########.fr       */
+/*   Updated: 2015/09/13 13:45:17 by gakles           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_utlimate_div_mod(int *a, int *b)
 {
 	int tmp;
+	int tmp2;
 
 	tmp = *a / *b;
-	*a = tmp;
-	tmp = *a % *b;
-	*b = tmp;
+	a = tmp;
+	tmp2 = *a % *b;
+	b = tmp2;
 }

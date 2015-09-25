@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_print_program_name.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gakles <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2015/09/06 20:13:27 by gakles            #+#    #+#             */
-/*   Updated: 2015/09/06 23:23:10 by gakles           ###   ########.fr       */
+/*   Created: 2015/09/10 11:33:30 by gakles            #+#    #+#             */
+/*   Updated: 2015/09/10 17:04:09 by gakles           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,41 +14,24 @@
 
 void	ft_putchar(char c)
 {
-	write(1, &c, d);
+	write(1, &c, 1);
 }
 
-void	ft_putstr(char *str)
+void	putstr(char *str)
 {
-	while (*str != '\0')
+	int i;
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		ft_putchar(*str);
-		str++;
+		ft_putchar(str[i]);
+		i++;
 	}
 }
 
-int		ft_diviseur(char *str)
+int		main(int argc, char **argv)
 {
-	int d++;
-
-	d = 0;
-	while (*str[d] != '\0')
-	{
-		d++;
-	}
-	return (d);
-}
-
-
-
-
-void	ft_putnbr(int nbr)
-{
-	int nbr = 
-}
-
-
-int		main(void)
-{
-	ft_putnbr(nbr)
+	argc = 0;
+	putstr(argv[0]);
 	return (0);
 }
